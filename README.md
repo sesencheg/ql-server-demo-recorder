@@ -1,4 +1,4 @@
-# ql-server-demo-recorder standalone v26
+# Quake Live Server-Side Demo Recorder
 
 Native-only `.so` recorder for QLDS. It can be preloaded alongside minqlx or with no minqlx.
 
