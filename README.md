@@ -8,8 +8,7 @@ Native-only `.so` recorder for QLDS. It can be preloaded alongside minqlx or wit
 
 ```
 sudo apt-get update
-sudo apt-get -y install python3 python3-dev
-sudo apt-get -y install redis-server git build-essential
+sudo apt-get -y install git build-essential
 ```
 
 - Clone this repository and compile minqlx
