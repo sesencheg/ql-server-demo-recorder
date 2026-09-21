@@ -2,6 +2,27 @@
 
 Native-only `.so` recorder for QLDS. It can be preloaded alongside minqlx or with no minqlx.
 
+## Installation
+
+- Install dependencies.
+
+```
+sudo apt-get update
+sudo apt-get -y install python3 python3-dev
+sudo apt-get -y install redis-server git build-essential
+```
+
+- Clone this repository and compile minqlx
+
+```
+git clone https://github.com/sesencheg/ql-server-demo-recorder.git
+cd ql-server-demo-recorder
+make
+```
+
+- Copy everything from `ql-server-demo-recorder.so` into `steamcmd/steamapps/common/qlds`, or whatever other directory you might have put the
+files of your server in.
+
 ## Environment
 
 ```bash
